@@ -183,8 +183,14 @@ function Projects() {
                 <span>Use <span className="text-teal-500 font-bold">&apos;resumify&apos;</span>, <span className="text-teal-500 font-bold">&apos;mathscribe&apos;</span>, <span className="text-teal-500 font-bold">&apos;semantic-search&apos;</span>, or <span className="text-teal-500 font-bold">&apos;chess&apos;</span></span>
             </Output>
             <Output>
-                <span>to preview the projects.</span>
+                <span>command to preview the projects.</span>
             </Output>
+
+            <br />
+
+            
+
+            <br />
         </>
     )
 }

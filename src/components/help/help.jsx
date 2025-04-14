@@ -7,7 +7,7 @@ function Help(){
                 <span><span className="text-teal-500 font-bold">about</span>            Information about me</span>
             </Output>
             <Output>
-                <span><span className="text-teal-500 font-bold">banner</span>           Display the header</span>
+                <span><span className="text-teal-500 font-bold">banner</span>           Display the terminal header</span>
             </Output>
             <Output>
                 <span><span className="text-teal-500 font-bold">clear, cls</span>       Clear the terminal</span>
