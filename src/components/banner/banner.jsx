@@ -35,7 +35,7 @@ function Banner() {
             </Output>
 
             <Output>
-                <span>I'm a Backend Developer specializing in scalable distributed systems.</span>
+                <span>I'm a Software Developer.</span>
             </Output>
 
             <br />

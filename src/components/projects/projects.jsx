@@ -44,7 +44,41 @@ function Projects() {
             <br />
 
             <Output>
-                <span className="text-teal-500 font-bold">[2] Resumify.me: <span className="cursor-pointer underline">https://resumify.me</span></span>
+                <span className="text-teal-500 font-bold">[2] Smart Email Assistant (SEA): <span className="cursor-pointer underline">https://github.com/sharad-mishra/sea-gmail</span></span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block text-yellow-500">Tech Stack: Node.js · MCP · Gmail API · Docker · TypeScript · Socket.io</span>
+            </Output>
+            <br />
+            <Output>
+                <span className="indent-[34px] block">• Built an <span className="text-teal-500">AI-powered email automation platform</span> with intelligent</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">  categorization and thread summarization capabilities</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">• Implemented <span className="text-teal-500">real-time email processing</span> with auto-reply and</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">  weekly feedback aggregation features</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">• Developed <span className="text-teal-500">extensible MCP integration</span> supporting multiple</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">  AI models and third-party services</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">• Created <span className="text-teal-500">containerized deployment</span> with Docker and Kubernetes</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">  support for scalable cloud deployment</span>
+            </Output>
+
+            <br />
+
+            <Output>
+                <span className="text-teal-500 font-bold">[3] Resumify.me: <span className="cursor-pointer underline">https://resumify.me</span></span>
             </Output>
             <Output>
                 <span className="indent-[34px] block text-yellow-500">Tech Stack: React · Redux · Node.js · MongoDB · Docker · Gemini API</span>
@@ -78,7 +112,7 @@ function Projects() {
             <br />
 
             <Output>
-                <span className="text-teal-500 font-bold">[3] MathScribe: <span className="cursor-pointer underline">https://github.com/sharad-mishra/mathscribe-fe</span></span>
+                <span className="text-teal-500 font-bold">[4] MathScribe: <span className="cursor-pointer underline">https://github.com/sharad-mishra/mathscribe-fe</span></span>
             </Output>
             <Output>
                 <span className="indent-[34px] block text-yellow-500">Tech Stack: React · TypeScript · FastAPI · Gemini API · TailwindCSS</span>
@@ -112,7 +146,7 @@ function Projects() {
             <br />
 
             <Output>
-                <span className="text-teal-500 font-bold">[4] Semantic Search Engine: <span className="cursor-pointer underline">https://github.com/sharad-mishra/SemanticSearchEngine</span></span>
+                <span className="text-teal-500 font-bold">[5] Semantic Search Engine: <span className="cursor-pointer underline">https://github.com/sharad-mishra/SemanticSearchEngine</span></span>
             </Output>
             <Output>
                 <span className="indent-[34px] block text-yellow-500">Tech Stack: Python · Elasticsearch · TensorFlow · Flask · Redis</span>
@@ -146,7 +180,41 @@ function Projects() {
             <br />
 
             <Output>
-                <span className="text-teal-500 font-bold">[5] Real-Time Chess App: <span className="cursor-pointer underline">https://github.com/sharad-mishra/chess</span></span>
+                <span className="text-teal-500 font-bold">[6] E-Commerce Crawler: <span className="cursor-pointer underline">https://github.com/sharad-mishra/ecomcrawler</span></span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block text-yellow-500">Tech Stack: Node.js · Puppeteer · Fastify · Socket.io · Docker</span>
+            </Output>
+            <br />
+            <Output>
+                <span className="indent-[34px] block">• Engineered a <span className="text-teal-500">stealth web crawler</span> with bot detection evasion</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">  supporting concurrent multi-domain crawling</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">• Built <span className="text-teal-500">real-time monitoring dashboard</span> using Socket.io for live</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">  crawling status and progress tracking</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">• Implemented <span className="text-teal-500">high-performance REST API</span> with Fastify achieving</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">  2x throughput compared to Express</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">• Developed <span className="text-teal-500">intelligent detection system</span> for product pages</span>
+            </Output>
+            <Output>
+                <span className="indent-[34px] block">  with support for lazy loading and pagination</span>
+            </Output>
+
+            <br />
+
+            <Output>
+                <span className="text-teal-500 font-bold">[7] Real-Time Chess App: <span className="cursor-pointer underline">https://github.com/sharad-mishra/chess</span></span>
             </Output>
             <Output>
                 <span className="indent-[34px] block text-yellow-500">Tech Stack: Node.js · Socket.io · React · MongoDB · TailwindCSS</span>
@@ -180,10 +248,22 @@ function Projects() {
             <br />
 
             <Output>
-                <span>Use <span className="text-teal-500 font-bold">&apos;resumify&apos;</span>, <span className="text-teal-500 font-bold">&apos;mathscribe&apos;</span>, <span className="text-teal-500 font-bold">&apos;semantic-search&apos;</span>, or <span className="text-teal-500 font-bold">&apos;chess&apos;</span></span>
+                <span>Use <span className="text-teal-500 font-bold">&apos;sea-gmail&apos;</span> to view Smart Email Assistant</span>
             </Output>
             <Output>
-                <span>command to preview the projects.</span>
+                <span>Use <span className="text-teal-500 font-bold">&apos;resumify&apos;</span> to view Resumify.me</span>
+            </Output>
+            <Output>
+                <span>Use <span className="text-teal-500 font-bold">&apos;mathscribe&apos;</span> to view MathScribe</span>
+            </Output>
+            <Output>
+                <span>Use <span className="text-teal-500 font-bold">&apos;semantic-search&apos;</span> to view Semantic Search Engine</span>
+            </Output>
+            <Output>
+                <span>Use <span className="text-teal-500 font-bold">&apos;ecomcrawler&apos;</span> to view E-Commerce Crawler</span>
+            </Output>
+            <Output>
+                <span>Use <span className="text-teal-500 font-bold">&apos;chess&apos;</span> to view Chess App</span>
             </Output>
 
             <br />

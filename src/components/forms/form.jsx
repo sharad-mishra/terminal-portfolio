@@ -14,6 +14,24 @@ function Form() {
     const [inputHistory, setInputHistory] = useState([]);
     const [caretPos, setCaretPos] = useState(0);
 
+    const commands = [
+        'about', 'banner', 'clear', 'cls', 'help', 'h', 'projects', 
+        'educations', 'socials', 'github', 'linkedin', 'email', 'sudo',
+        'sea-gmail', 'resumify', 'mathscribe', 'semantic-search', 'ecomcrawler', 'chess'
+    ];
+
+    const urlMap = {
+        linkedin: "https://www.linkedin.com/in/sharad-miishra/",
+        github: "https://github.com/sharad-mishra",
+        "sea-gmail": "https://github.com/sharad-mishra/sea-gmail",
+        resumify: "https://resumify.me",
+        mathscribe: "https://github.com/sharad-mishra/mathscribe-fe",
+        "semantic-search": "https://github.com/sharad-mishra/SemanticSearchEngine",
+        ecomcrawler: "https://github.com/sharad-mishra/ecomcrawler",
+        chess: "https://github.com/sharad-mishra/chess",
+        sudo: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    };
+
     const handleInputChange = (event) => {
         const input = event.target.value;
         setWidth(input.length * 8.4);
@@ -25,15 +43,6 @@ function Form() {
         switch (event.key) {
             case "Enter":
                 const command = event.target.value.trim().toLowerCase();
-                const urlMap = {
-                    linkedin: "https://www.linkedin.com/in/sharad-miishra/",
-                    github: "https://github.com/sharad-mishra",
-                    resumify: "https://resumify.me",
-                    mathscribe: "https://github.com/sharad-mishra/mathscribe-fe",
-                    "semantic-search": "https://github.com/sharad-mishra/SemanticSearchEngine",
-                    chess: "https://github.com/sharad-mishra/chess",
-                    sudo: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-                };
 
                 if (urlMap[command]) {
                     window.open(urlMap[command]);
@@ -208,9 +217,11 @@ function Form() {
                                     </div>
                                 </div>
                             );
-                        case "mathscribe":
+                        case "sea-gmail":
                         case "resumify":
+                        case "mathscribe":
                         case "semantic-search":
+                        case "ecomcrawler":
                         case "chess":
                             return (
                                 <div key={index}>
